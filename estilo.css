@@ -1,0 +1,167 @@
+
+.search-bar {
+    display: flex;
+    justify-content: center; 
+    padding: 20px;
+    margin-right: 200px;
+}
+
+#search-input {
+    padding: 8px;
+    border: 1px solid #a1a1a1;
+    border-radius: 1px;
+    margin-right: 10px;
+    width: 70%; 
+    max-width: 400px; 
+}
+
+#search-button {
+    padding: 8px 15px;
+    background-color: #cb4dcf;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #b33300;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 90px 0;
+    margin-left: 250px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #5abaf1;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.33% - 20px); 
+    max-width: 290px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 10px rgba(110, 11, 177, 0.3);
+}
+
+
+
+
+
+.logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #7a2cd3;
+    color: #fff;
+    padding-top: 150px;
+    font-family: 'Arial', sans-serif;
+}
+
+.sidebar a {
+    display: block;
+    padding: 22px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #0eb6cc;
+}
+
+.search-image {
+    max-width: 100px;
+    width: 40px;
+    height: 30px;
+    margin-right: 20px; 
+}
+
+
+.search-tabs {
+    position: absolute;
+    top: 0;
+    right: 20px; 
+    margin: 20px; 
+}
+
+
+.search-tabs a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px 12px;
+    background-color: #ffffff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+
+.search-tabs a:hover {
+    background-color: #0eb6cc; 
+    color: #fff; 
+}
+
+body.index-page {
+    background-image: url('imagenes/juju.png'); 
+    background-size: 40%; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-button {
+    padding: 20px 40px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 500px; 
+}
+
+.custom-button:hover {
+    background-color: #7510af;
+}
